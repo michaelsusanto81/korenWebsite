@@ -55,8 +55,29 @@ nav .clear {
 	clear: both;
 }
 
+article {
+	text-align: center;
+	margin: 100px auto 169px;
+	font-size: 30px;
+}
 
+article h1 {
+	margin-bottom: 50px;
+	font-family: 'Righteous', cursive;
+	color: #634309;
+	text-shadow: 3px 3px 3px gray;
+}
 
+article ul li a {
+	text-decoration: none;
+	font-size: 25px;
+	font-family: 'Righteous', cursive;
+	color: #525252;
+	display: inline-block;
+	width: 150px;
+	text-align: center;
+	line-height: 50px;
+}
 
 footer {
 	background-color: black;
