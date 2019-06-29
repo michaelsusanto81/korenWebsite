@@ -51,20 +51,64 @@ nav ul li a:hover {
 	background-color: #d6b789;
 }
 
-nav .clear {
+.clear {
 	clear: both;
 }
 
+article {
+	height: 100%;	
+	position: relative;
+}
+
 article .leftContainer {
+	padding: 195.5px 0;
 	float: left;
-	background-color: salmon;
-	height: 100px;
-	width: 100px;
+	width: 300px;
+	font-family: 'Architects Daughter', cursive;
+	text-align: right;
+}
+
+article .leftContainer h2 {
+	font-size: 40px;
+}
+
+article .leftContainer h1 {
+	font-size: 50px;
 }
 
 article .rightContainer {
 	float: right;
-	background-color: blue;
-	height: 100px;
-	width: 100px;
+	width: 900px;
+	margin-top: 20px;
+}
+
+article .rightContainer .content {
+	width: 650px;
+	margin: auto;
+}
+
+article .rightContainer .content img {
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	float: left;
+	border: 10px solid #292929;
+	overflow: hidden;
+	background-color: #292929;
+}
+
+article .rightContainer .content .clearLeft {
+	clear: left;
+}
+
+footer {
+	background-color: black;
+	text-align: center;
+	font-size: 16px;
+	margin-top: 5px;
+	position: relative;
+	bottom: -5px;
+	left: 0;
+	right: 0;
+	color: #ffe6c7;
 }

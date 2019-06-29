@@ -62,14 +62,17 @@ article {
 }
 
 article .selfphoto {
-	background-image: url(../photos/profile.jpg);
-	background-size: cover;
-	transform: rotate(90deg);
 	width: 300px;
 	height: 300px;
 	border-radius: 50%;
 	float: left;
 	border: 10px solid #292929;
+	overflow: hidden;
+	background-color: #292929;
+}
+
+article .selfphoto img {
+	width: 300px;
 }
 
 article .content {
