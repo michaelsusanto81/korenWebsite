@@ -1,0 +1,102 @@
+* {
+	margin: 0;
+	padding: 0;
+	/*font-family: 'Architects Daughter', cursive;
+	font-family: 'Righteous', cursive;*/
+}
+
+body {
+	background-color: #ffe6c7;
+}
+
+nav {
+	height: 70px;
+	background-color: rgba(0,0,0,.05);
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+nav .logo a {
+	float: left;
+	font-family: 'Righteous', cursive;
+	font-size: 50px;
+	text-shadow: 5px 3px 5px gray;
+	margin-left: 20px;
+	color: #634309;
+	text-decoration: none;
+}
+
+nav ul {
+	float: right;
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 20px 10px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	font-size: 25px;
+	font-family: 'Righteous', cursive;
+	color: #525252;
+	display: inline-block;
+	width: 150px;
+	text-align: center;
+}
+
+nav ul li a:hover {
+	transition: 500ms;
+	background-color: #d6b789;
+}
+
+nav .clear {
+	clear: both;
+}
+
+article {
+	padding: 100px 0 139px 100px;
+	position: relative;
+}
+
+article img {
+	width: 300px;
+	height: 300px;
+	border-radius: 50%;
+	float: left;
+	border: 10px solid #292929;
+	overflow: hidden;
+	background-color: #292929;
+}
+
+article .content {
+	float: left;
+	margin-left: 50px;
+	width: 700px;
+	font-size: 25px;
+}
+
+article .content h1 {
+	font-family: 'Righteous', cursive;
+}
+
+article .content p {
+	font-family: 'Architects Daughter', cursive;
+}
+
+article .clearLeft {
+	clear: left;
+}
+
+footer {
+	background-color: black;
+	text-align: center;
+	font-size: 16px;
+	margin-top: 5px;
+	position: relative;
+	bottom: -5px;
+	left: 0;
+	right: 0;
+	color: #ffe6c7;
+}
