@@ -70,11 +70,11 @@ article img {
 	overflow: hidden;
 	background-color: #292929;
 	margin-right: 50px; 
+	max-width: 100%;
 }
 
 article .content {
 	float: left;
-	/*margin-left: 50px;*/
 	width: 700px;
 	font-size: 25px;
 	max-width: 100%;

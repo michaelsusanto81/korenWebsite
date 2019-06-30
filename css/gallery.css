@@ -97,6 +97,7 @@ article .rightContainer .content img {
 	border: 10px solid #292929;
 	overflow: hidden;
 	background-color: #292929;
+	max-width: 100%;
 }
 
 article .rightContainer .content .clearLeft {

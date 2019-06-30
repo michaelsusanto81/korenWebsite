@@ -71,6 +71,7 @@ article .selfphoto {
 	overflow: hidden;
 	background-color: #292929;
 	margin-right: 70px;
+	max-width: 100%;
 }
 
 article .selfphoto img {
@@ -79,6 +80,7 @@ article .selfphoto img {
 
 article .content {
 	float: left;
+	max-width: 100%;
 }
 
 article .content h1 {
